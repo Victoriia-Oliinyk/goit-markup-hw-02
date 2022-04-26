@@ -59,8 +59,7 @@ body {
   color: var(--primary-text-color);
 }
 /* Примеры работ */
-.work-list {
-}
+
 
 /*Команда */
 .team-list .title {
@@ -81,6 +80,13 @@ body {
 .adress {
     color: var(--hero-title-color);
 }
+
 .footer-nav .link {
     color: var(--footer-text-color);
 }
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+  color: var(--accent-color);
+}
+
+
