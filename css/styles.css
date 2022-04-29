@@ -5,7 +5,7 @@
   --hero-title-color: #ffffff;
   --background-hero-color: #2f303a;
   --footer-text-color: rgba(255, 255, 255, 0.6);
-  --background-body-color: #FFFFFF;
+  --background-body-color: #ffffff;
   --background-team-color: #f5f4fa;
 }
 
@@ -218,7 +218,9 @@ body {
   color: var(--background-body-color);
   background-color: var(--accent-color);
 }
-
+.link-filtrs-box {
+  text-decoration: none;
+}
 .link-title-filtrs {
   color: var(--title-text-color);
   font-family: "Roboto";
@@ -227,12 +229,21 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
- 
+  text-decoration: none;
+}
+.link-title-filtrs .text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .filtrs .text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  
+  text-decoration: none;
 }
