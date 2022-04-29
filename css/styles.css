@@ -5,7 +5,7 @@
   --hero-title-color: #ffffff;
   --background-hero-color: #2f303a;
   --footer-text-color: rgba(255, 255, 255, 0.6);
-  --background-body-color: #e5e5e5;
+  --background-body-color: #FFFFFF;
   --background-team-color: #f5f4fa;
 }
 
@@ -164,7 +164,7 @@ body {
   color: var(--hero-title-color);
   font-family: "Roboto";
   font-style: normal;
-  
+
   font-size: 14px;
   line-height: 1.71;
 
@@ -177,11 +177,12 @@ body {
 .footer-nav .link {
   color: var(--footer-text-color);
   font-style: normal;
-  
+
   font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer-nav .link:hover,
 .footer-nav .link:focus {
@@ -192,11 +193,9 @@ body {
 .filtrs .btn {
   color: var(--title-text-color);
   font-family: inherit;
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -215,6 +214,10 @@ body {
 .filtrs-list .btn.current {
   background-color: var(--accent-color);
 }
+.btn-accent {
+  color: var(--background-body-color);
+  background-color: var(--accent-color);
+}
 
 .link-title-filtrs {
   color: var(--title-text-color);
@@ -224,13 +227,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
+ 
 }
 .filtrs .text {
   color: var(--primary-text-color);
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  
 }
