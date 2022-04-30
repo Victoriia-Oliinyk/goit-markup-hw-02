@@ -7,6 +7,7 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --background-body-color: #ffffff;
   --background-team-color: #f5f4fa;
+  --font-size-main: 14px;
 }
 
 body {
@@ -54,7 +55,7 @@ body {
   color: var(--title-text-color);
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -70,7 +71,7 @@ body {
   color: var(--primary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -124,7 +125,7 @@ body {
   color: var(--title-text-color);
 
   font-weight: 700;
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -132,7 +133,7 @@ body {
 .feature-list .text {
   color: var(--primary-text-color);
 
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.71;
 
   letter-spacing: 0.03em;
@@ -165,7 +166,7 @@ body {
   font-family: "Roboto";
   font-style: normal;
 
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.71;
 
   letter-spacing: 0.03em;
@@ -178,7 +179,7 @@ body {
   color: var(--footer-text-color);
   font-style: normal;
 
-  font-size: 14px;
+  font-size: var(--font-size-main);
   line-height: 1.71;
 
   letter-spacing: 0.03em;
@@ -192,6 +193,8 @@ body {
 
 .filtrs .btn {
   color: var(--title-text-color);
+  background-color: var(--background-team-color);
+  cursor: pointer;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -202,22 +205,21 @@ body {
 .filtrs .btn:hover,
 .filtrs .btn:focus {
   color: var(--hero-title-color);
-}
-.filtrs .btn {
-  background-color: var(--background-team-color);
-  cursor: pointer;
-}
-.filtrs .btn:hover,
-.filtrs .btn:focus {
   background-color: var(--accent-color);
 }
-.filtrs-list .btn.current {
-  background-color: var(--accent-color);
-}
-.btn-accent {
+
+.btn.current {
   color: var(--background-body-color);
   background-color: var(--accent-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
 .link-filtrs-box {
   text-decoration: none;
 }
@@ -240,7 +242,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.filtrs .text {
+
+.text-box {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
